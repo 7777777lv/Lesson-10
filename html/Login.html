@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <nav>
+        <div class="container navbar">
+          <div class="by-logo">
+            <img src="../images/by-logo.png" alt="" />
+          </div>
+          <div class="nav-link">
+            <ul class="nav-item">
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="nav-path">
+            <ul class="paths">
+              <li><a href="./Login.html">Login</a></li>
+              <li><a href="./second-step.html">Open an account</a></li>
+              <li><a href="#">En </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="container forms">
+            <div class="forms-heading">
+                <div class="logo">
+                  <img src="../images/by-logo.png" alt="" />
+                </div>
+                <div class="text">
+                  <h1>Welcome to ByTrend!</h1>
+                  <p>Already have an account?</p>
+                  <a href="./Login.html">Log in</a>
+                </div>
+              </div>
+              <div class="forms-section">
+                <form action="">
+                    <div class="email">
+                    <label for="email">Email</label>
+                        <input
+                        type="email"
+                        required
+                        placeholder="Email adresss"
+                        name="email-adress"
+                        id="email"
+                        >
+                    </div>
+                </form>
+                <form action="">
+                    <div class="password">
+                      <label for="password">Password</label>
+                      <input
+                        required
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="**********"
+                      />
+                      <i class="bi bi-eye-slash" id="togglePassword"></i>
+                    </div>
+                  </form>
+                  <div class="continue">
+                    <button class="cont">
+                      <a href="./second-step.html">Continue</a>
+                      <img src="../images/strelka.svg" alt="" />
+                    </button>
+                  </div>
+              </div>
+        </div>
+        <p class="end">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+      </main>
+      <script src="../style.js"></script>
+</body>
+</html>
